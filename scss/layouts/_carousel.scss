@@ -1,0 +1,13 @@
+#carousel {
+  .carousel__content {
+    align-items: center;
+    .carousel__left {
+      .carousel__title {
+        @include style-text($fs-6, $fw-3, $color-dark-1);
+      }
+      p {
+        @include style-text($fs-3, $fw-2, $color-purple-1);
+      }
+    }
+  }
+}
